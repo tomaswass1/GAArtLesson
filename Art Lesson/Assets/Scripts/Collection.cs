@@ -12,7 +12,7 @@ public class Collection : MonoBehaviour {
 
         //start the particle effect
         Instantiate(reward, transform.position, transform.rotation);
-        //destroy original game object
+        //destroy game object
         Destroy(gameObject);
     }
 }
